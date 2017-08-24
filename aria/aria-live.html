@@ -46,7 +46,7 @@
 
     getQuotes('quotes.json', populateJson);
 
-    var intervalID = window.setInterval(showQuote, 1000);
+    var intervalID = window.setInterval(showQuote, 10000);
 
     function getQuotes(url, callback) {
       var request = new XMLHttpRequest();
